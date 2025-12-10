@@ -22,6 +22,7 @@ Pokedex app is a web application that fetches live data from the PokeAPI and pre
 
 <img width="1797" height="935" alt="image" src="https://github.com/user-attachments/assets/921a7d8d-9902-4fdf-bcce-ace66ae6c4ef" />
 
+**Expanded card screenshots** :
 <img width="369" height="366" alt="image" src="https://github.com/user-attachments/assets/501afd81-7cb7-4d41-bbe0-2b6840901449" />  <img width="363" height="364" alt="image" src="https://github.com/user-attachments/assets/e301bf93-677c-48ce-a6e8-9b57046597d8" />  <img width="372" height="360" alt="image" src="https://github.com/user-attachments/assets/99e49419-0aa7-47ec-b078-b1d35a97e041" />
 
 
