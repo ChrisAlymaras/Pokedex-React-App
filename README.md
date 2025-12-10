@@ -7,7 +7,7 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=yellow)
 ![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Pokedex app is a web application that fetches live data from the PokeAPI and presents it in an interactive, user-friendly interface.
+Pokedex app is a web application that fetches live data from the [PokéAPI](https://pokeapi.co/) and presents it in an interactive, user-friendly interface.
 
 **Highlights** :
 
