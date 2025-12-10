@@ -1,0 +1,43 @@
+const cardBackgrounds = {
+    normal: "#A8A77A",
+    fire: "#e85d04",
+    water: "#6390F0",
+    grass: "#7AC74C",
+    electric: "#F7D02C",
+    ice: "#96D9D6",
+    fighting: "#C22E28",
+    poison: "#A33EA1",
+    ground: "#E2BF65",
+    flying: "#A98FF3",
+    psychic: "#F95587",
+    bug: "#A6B91A",
+    rock: "#B6A136",
+    ghost: "#735797",
+    dragon: "#6F35FC",
+    dark: "#705746",
+    steel: "#B7B7CE",
+    fairy: "#D685AD",
+};
+
+const typeBackgrounds = {
+    normal: "#7b703e",
+    fire: "#f48c06",
+    water: "#4361ee",
+    grass: "#007200",
+    electric: "#c36f09",
+    ice: "#9db4c0",
+    fighting: "#ef233c",
+    poison: "#240046",
+    ground: "#603808",
+    flying: "#6f1d1b",
+    psychic: "#693668",
+    bug: "#6a994e",
+    rock: "#fff44f",
+    ghost: "#907ad6",
+    dragon: "#70e000",
+    dark: "#000000",
+    steel: "#495057",
+    fairy: "#1f1a38",
+};
+
+export { cardBackgrounds, typeBackgrounds } ;

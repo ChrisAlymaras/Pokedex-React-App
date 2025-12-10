@@ -1,0 +1,184 @@
+/*pokemon card styling*/
+.pokemon-card{
+    border-radius: 15px;
+    padding:1rem;
+    margin:0.5rem;
+    width:200px;
+    max-width:80vw;
+    position:relative;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    cursor:pointer;
+    color: white;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.03);
+}
+
+/*pokeball settings*/
+.pokeball {
+    position: absolute;
+    bottom: -50px;
+    right: -150px;
+    width: 500px;
+    height: 300px;
+    rotate: z 40deg;
+    background-image: url("../../public/pokeball.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.07;
+    pointer-events: none;
+}
+
+/*expanded content height width settings*/
+.pokemon-card.expanded{
+    width:310px;
+    max-height:80vh;
+    overflow-y: auto;
+}
+
+.expanded-content{
+    margin-top: 1rem;
+    background: rgba(255,255,255,0.1);
+    background-color: #e9ecef;
+    border-radius: 15px;
+    padding: 1rem;
+    color: black;
+}
+
+
+/*header title, id, types, image styling*/
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-id{
+    font-weight:bold;
+    font-size:1rem;
+    background: rgba(255,255,255,0.2);
+    padding: 0.2rem 0.4rem;
+    border-radius: 12px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.pokemon-types{
+    display:flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.solo-type{
+    font-weight:bold;
+    padding:0.4rem 0.8rem;
+    border-radius: 15px;
+    outline: 2px solid;
+    font-size: 0.9rem;
+}
+
+img{
+    width: 150px;
+    height: auto;
+}
+
+/*tab row and button styling*/
+.tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+
+button{
+    border-radius: 15px;
+    padding: 0.5rem;
+    font-size:15px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.tabs button:hover{
+    transform: scale(1.1);
+}
+
+/*evolution content styling*/
+.evo-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:10px;
+    font-weight: bold;
+}
+
+.evo-image{
+    width:100px;
+    height:auto;
+}
+
+/*stats content styling*/
+.stats-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.stat-row {
+    margin-bottom: 12px;
+}
+
+.stat-label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.stat-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #ced4da;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.stat-bar-fill {
+    height: 5px;
+    background-color: #4caf50; /* matching green */
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}
+
+.stats-total {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
