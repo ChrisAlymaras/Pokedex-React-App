@@ -4,6 +4,8 @@
     padding:1rem;
     margin:0.5rem;
     width:200px;
+    height:300px;
+    height:300px;
     max-width:80vw;
     position:relative;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
@@ -35,7 +37,6 @@
 /*expanded content height width settings*/
 .pokemon-card.expanded{
     width:310px;
-    max-height:80vh;
     overflow-y: auto;
 }
 
