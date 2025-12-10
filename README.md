@@ -1,4 +1,6 @@
-**Pokedex React App**
+**Pokedex React App** 
+
+## 🔗 Live Demo [Pokedex App on Netlify](https://pokedexappchrisalym.netlify.app/)
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
